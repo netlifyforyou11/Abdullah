@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook - Service Temporarily Unavailable</title>
+    <title>Service Temporarily Unavailable</title>
     <style>
         * {
             margin: 0;
@@ -19,21 +19,6 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-        }
-
-        .header {
-            background-color: #ffffff;
-            border-bottom: 1px solid #dadde1;
-            padding: 12px 16px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .logo {
-            font-size: 32px;
-            font-weight: bold;
-            color: #1877f2;
-            text-decoration: none;
-            font-family: "Klavika", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         }
 
         .main-content {
@@ -87,7 +72,7 @@
         }
 
         .maintenance-title {
-            font-size: 24px;
+            font-size: 32px;
             font-weight: 600;
             color: #1c1e21;
             margin-bottom: 16px;
@@ -131,15 +116,11 @@
             }
 
             .maintenance-title {
-                font-size: 20px;
+                font-size: 28px;
             }
 
             .maintenance-message {
                 font-size: 15px;
-            }
-
-            .logo {
-                font-size: 28px;
             }
 
             .main-content {
@@ -159,7 +140,7 @@
             }
 
             .maintenance-title {
-                font-size: 18px;
+                font-size: 24px;
             }
 
             .maintenance-message {
@@ -189,20 +170,17 @@
     </style>
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="logo">facebook</a>
-    </header>
 
     <main class="main-content">
         <div class="maintenance-card">
             <div class="maintenance-icon">
-                <!-- TO ADD YOUR FACEBOOK LOGO: Replace "facebook-logo.png" with your image path -->
-                <img src="FB_IMG_1752016753027.jpg" alt="Facebook Logo" onerror="this.style.display='none'">
+                <!-- TO ADD YOUR LOGO: Replace "your-logo.png" with your image path -->
+                <img src="FB_IMG_1752016753027.jpg" alt="Logo" onerror="this.style.display='none'">
             </div>
 
             <h1 class="maintenance-title">We're temporarily unavailable</h1>
             <p class="maintenance-message">
-                We're sorry – something went wrong. We're working on it and expect to have things back to normal in about an hour.
+                We're sorry – something went wrong. We're working on it and expect to have things back to normal in <strong>approximately 1 hour</strong>.
             </p>
             <div class="estimated-time">
                 We'll be back soon. Thanks for your patience.
@@ -212,7 +190,7 @@
 
     <footer class="footer">
         <p class="footer-message">
-            Thanks for your patience – The Facebook Team
+            Thanks for your patience – The Team
         </p>
     </footer>
 </body>
